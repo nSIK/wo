@@ -1,0 +1,39 @@
+@font-face { font-family: 'GmarketSans'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: 400; font-style: normal; }
+
+/*
+document : CSS Reset
+publishing : Wonsik Choi (nsikchoi@gmail.com)
+*/
+
+html, body {height:100%;}
+body {margin:0; padding:0; font-size:1rem; line-height:1.6; color:#666; -webkit-text-size-adjust:none;}
+body,input,button {font-family: 'GmarketSans','Apple SD Gothic Neo','맑은고딕',Malgun Gothic,'돋움',Dotum,sans-serif;}
+* {box-sizing: border-box;}
+
+img {display:inline-block; border:0 none; vertical-align:top;}
+a, cite, code, dfn, del, em, ins, label, q, span, strong {display:inline-block;}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0; color:#222; font-weight: 400;}
+address, cite, em, dfn {font-style:normal;}
+sub {vertical-align:bottom; font-weight:normal !important;font-size:0.5rem;}
+sup {vertical-align:top; font-weight:normal !important;font-size:0.5rem;}
+blockquote, p {margin:0;}
+pre {margin:0; font-size:1rem;}
+
+/* table */
+table {border-collapse:collapse; border-spacing:0;}
+caption {overflow: hidden; height:0; width: 0; padding:0; visibility:hidden; font-size: 0; line-height:0;}
+th {padding:0;}
+td {padding:0; font-weight:400;}
+
+/* list */
+dd, dl, ol, ul {margin:0; padding:0;}
+li {list-style-type:none;}
+
+/* link */
+a {color:#222; text-decoration:none; cursor:pointer;}
+a:link {color:#222;}
+a:visited {color:#222;}
+a:hover {color:#222; text-decoration:underline;}
+a:active {color:#222;}
+
+/* option */ 

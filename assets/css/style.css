@@ -1,0 +1,33 @@
+/*
+document : CSS Style
+publishing : Wonsik Choi (nsikchoi@gmail.com)
+*/
+html {font-size:16px;}
+header {position: fixed; width:3rem; right:1rem; top:2rem; bottom:2rem; border-left:0.25rem solid #222;}
+
+header nav {
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-ms-transform-origin: left top;
+	-webkit-transform-origin: left top;
+	transform-origin: left top;
+	overflow: hidden; width:calc(100vh - 4rem); height: 1.6rem; margin-left: 2.25rem;
+}
+header nav ul.main-menu {float:left; overflow: hidden;}
+header nav ul.main-menu li {float:left; margin-right: 1.5rem;}
+header nav ul.main-menu li:last-child {margin-right: 0;}
+header nav ul.main-menu li a {font-size:1rem; color:#222;}
+
+header nav ul.sub-menu {float:left; overflow: hidden; margin-left:3.5rem;}
+header nav ul.sub-menu li {float:left; margin-right: 1.5rem;}
+header nav ul.sub-menu li:last-child {margin-right:0;}
+header nav ul.sub-menu li a {font-size:0.75rem; color:#222;}
+
+.contents {padding:2rem;}
+.contents h1 {font-size:1rem; line-height: 1.25rem;}
+.contents h2 {margin-top:6rem; font-size:4rem;}
+
+@media screen and (max-width:767px) {
+	html {font-size: 12px;}	
+}
